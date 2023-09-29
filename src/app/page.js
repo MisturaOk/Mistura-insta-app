@@ -10,6 +10,7 @@ export default function Home() {
       <div className={styles.imageContainer}>
         <div className={styles.image} />
       </div>
+      <div className={styles.bar}/>
       <div className={styles.buttonContainer}>
         <div className={`${styles.buttonGroup} ${styles.row}`}>
           <div>
