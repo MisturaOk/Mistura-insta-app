@@ -142,8 +142,8 @@
   border-radius: 50px;
   background: linear-gradient(
       0deg,
-      rgb(249, 249, 249) 0%,
-      rgba(249, 249, 249, 0.979) 100%
+      rgba(249, 249, 249, 0.15) 0%,
+      rgba(249, 249, 249, 0.15) 100%
     ),
     url("./youtube-music7134-logo-removebg-preview.png"),
     rgba(99, 99, 99, 0) 50% / cover no-repeat;
