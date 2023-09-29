@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-nextjs-app
+    env: node
+    buildCommand: "npm run build"
+    startCommand: "npm start"
+    staticPublishPath: "out"
