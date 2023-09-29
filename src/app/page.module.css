@@ -2,7 +2,6 @@
   height: 896px;
 }
 
-
 .container {
   display: flex;
   flex-direction: column;
@@ -22,20 +21,22 @@
 }
 
 .image {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%), url("./Si-paro-el-tiempo.png"), lightgray 50% ;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%),
+    url("./Si-paro-el-tiempo.png"), lightgray 50%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background-size: cover;
   height: 300px;
   width: 300px;
   border-radius: 20px;
   border: 1px solid #000;
-opacity: 0.85;
+  opacity: 0.85;
 }
 
 .bar {
   width: 414px;
-height: 40px;
-background: rgba(12, 30, 61, 0.36);
+  height: 40px;
+  background: rgba(12, 30, 61, 0.36);
 }
 
 .buttonContainer {
@@ -43,10 +44,14 @@ background: rgba(12, 30, 61, 0.36);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 354px;
+  height: 436px;
   /* margin-top: 2rem; */
-  height: 60rem;
-  background-color: rgba(104, 106, 107, 0.4);
-  overflow: hidden;
+  border-radius: 30px;
+  background: rgba(19, 59, 82, 0.2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.5), 0px 4px 4px 0px rgba(0, 0, 0, 0.5),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 .buttonGroup {
   background-color: #3a3d305d;
@@ -68,7 +73,8 @@ background: rgba(12, 30, 61, 0.36);
       rgba(249, 249, 249, 0.281) 0%,
       rgba(249, 249, 249, 0.274) 100%
     ),
-    url("./spotify-logo-removebg-preview.png"), rgba(99, 99, 99, 0.5) 50% / cover no-repeat;
+    url("./spotify-logo-removebg-preview.png"),
+    rgba(99, 99, 99, 0.5) 50% / cover no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -84,10 +90,10 @@ background: rgba(12, 30, 61, 0.36);
   margin-bottom: 1rem;
   margin-left: 3rem;
   /* margin-right: 2rem; */
-  
 }
 .round1:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%), url("./spotify-logo-removebg-preview.png");
+  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%),
+    url("./spotify-logo-removebg-preview.png");
   background-size: 100%;
   display: inline-block;
   cursor: pointer;
@@ -102,7 +108,8 @@ background: rgba(12, 30, 61, 0.36);
       rgba(249, 249, 249, 0.15) 0%,
       rgba(249, 249, 249, 0.15) 100%
     ),
-    url("./Apple-Logo-removebg-preview.png"), rgba(99, 99, 99, 0.363) 50% / cover no-repeat;
+    url("./Apple-Logo-removebg-preview.png"),
+    rgba(99, 99, 99, 0) 50% / cover no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -111,7 +118,7 @@ background: rgba(12, 30, 61, 0.36);
   background-repeat: no-repeat;
   display: inline-block;
   cursor: pointer;
-  color: #3a3d30;
+  color: #3a3d3056;
   font-family: Arial;
   font-size: 17px;
   padding: 35px 35px;
@@ -122,7 +129,8 @@ background: rgba(12, 30, 61, 0.36);
   /* margin-right: 2rem; */
 }
 .round2:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%), url("./Apple-Logo-removebg-preview.png");
+  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%),
+    url("./Apple-Logo-removebg-preview.png");
   background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,16 +138,15 @@ background: rgba(12, 30, 61, 0.36);
   transform: scale(1.1);
 }
 
-
 .round3 {
   border-radius: 50px;
   background: linear-gradient(
       0deg,
-      rgba(249, 249, 249, 0.15) 0%,
-      rgba(249, 249, 249, 0.15) 100%
+      rgb(249, 249, 249) 0%,
+      rgba(249, 249, 249, 0.979) 100%
     ),
     url("./youtube-music7134-logo-removebg-preview.png"),
-    rgba(99, 99, 99, 0.363) 50% / cover no-repeat;
+    rgba(99, 99, 99, 0) 50% / cover no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -156,12 +163,12 @@ background: rgba(12, 30, 61, 0.36);
   /* margin-right: 2rem; */
 }
 .round3:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%), url("./youtube-music7134-logo-removebg-preview.png");
+  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%),
+    url("./youtube-music7134-logo-removebg-preview.png");
   background-size: 100%;
   background-color: #bfbfbf60;
   transform: scale(1.1);
 }
-
 
 .square1 {
   width: 168px;
@@ -172,7 +179,8 @@ background: rgba(12, 30, 61, 0.36);
       rgba(99, 99, 99, 0.363) 0%,
       rgba(99, 99, 99, 0.363) 100%
     ),
-    url("./spotify-removebg-preview.png"), rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
+    url("./spotify-removebg-preview.png"),
+    rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -184,7 +192,8 @@ background: rgba(12, 30, 61, 0.36);
 }
 
 .square1:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%), url("./spotify-removebg-preview.png");
+  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%),
+    url("./spotify-removebg-preview.png");
   background-size: 100%;
   background-color: #bfbfbf60;
   transform: scale(1.1);
@@ -199,7 +208,8 @@ background: rgba(12, 30, 61, 0.36);
       rgba(99, 99, 99, 0.363) 0%,
       rgba(99, 99, 99, 0.363) 100%
     ),
-    url("./Apple-Music-Logo-removebg-preview.png"), rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
+    url("./Apple-Music-Logo-removebg-preview.png"),
+    rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -210,7 +220,8 @@ background: rgba(12, 30, 61, 0.36);
 }
 
 .square2:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%), url("./Apple-Music-Logo-removebg-preview.png");
+  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%),
+    url("./Apple-Music-Logo-removebg-preview.png");
   background-size: 90%;
   background-color: #bfbfbf60;
   background-position: center;
@@ -227,7 +238,8 @@ background: rgba(12, 30, 61, 0.36);
       rgba(99, 99, 99, 0.363) 0%,
       rgba(99, 99, 99, 0.363) 100%
     ),
-    url("./youtube-music7134-music-removebg-preview.png"), rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
+    url("./youtube-music7134-music-removebg-preview.png"),
+    rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -237,7 +249,8 @@ background: rgba(12, 30, 61, 0.36);
 }
 
 .square3:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%), url("./youtube-music7134-music-removebg-preview.png");
+  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%),
+    url("./youtube-music7134-music-removebg-preview.png");
   background-size: 80%;
   background-color: #bfbfbf60;
   background-position: center;
