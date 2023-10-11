@@ -30,14 +30,14 @@
   width: 300px;
   border-radius: 20px;
   border: 1px solid #000;
-  opacity: 0.90;
+  opacity: 0.9;
 }
 
-.bar {
+/* .bar {
   width: 100vw;
   height: 40px;
   background: rgba(10, 25, 51, 0.36);
-}
+} */
 
 .buttonContainer {
   display: flex;
@@ -52,7 +52,7 @@
     0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .buttonGroup {
-  background-color: #2c47507e;
+  background-color: #284663c9;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -73,174 +73,16 @@
   margin: 1rem;
 }
 
-/* .round1 {
-  border-radius: 50px;
-  background: linear-gradient(
-    0deg,
-    rgba(249, 249, 249, 0.15) 0%,
-    rgba(249, 249, 249, 0.15) 100%
-    ),
-    url("./spotify-logo-removebg-preview.png"),
-    rgba(99, 99, 99, 0.5) 50% / cover no-repeat;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background-size: 100%;
-  display: inline-block;
-  cursor: pointer;
-  padding: 35px 35px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #ffffff;
-  margin-bottom: 1rem;
-  margin-left: 3rem;
-}
-.round1:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%),
-    url("./spotify-logo-removebg-preview.png");
-  background-size: 100%;
-  display: inline-block;
-  cursor: pointer;
-  background-color: #bfbfbf60;
-  transform: scale(1.1);
-} */
-
-/* .round2 {
-  border-radius: 50px;
-  background: linear-gradient(
-      0deg,
-      rgba(249, 249, 249, 0.15) 0%,
-      rgba(249, 249, 249, 0.15) 100%
-    ),
-    url("./manzana-apple.png"),
-    rgba(99, 99, 99, 0.5) 50% / cover no-repeat;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: inline-block;
-  cursor: pointer;
-  padding: 35px 35px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #ffffff;
-  margin-bottom: 1rem;
-  margin-left: 1.5rem;
-}
-.round2:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%),
-    url("./Apple-Logo-removebg-preview.png");
-  background-size: 80%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #bfbfbf60;
-  transform: scale(1.1);
-} */
-
-/* .round3 {
-  border-radius: 50px;
-  background: linear-gradient(
-      0deg,
-      rgba(249, 249, 249, 0.15) 0%,
-      rgba(249, 249, 249, 0.15) 100%
-    ),
-    url("./youtube-music7134-logo-removebg-preview.png"),
-    rgba(99, 99, 99, 0.5) 50% / cover no-repeat;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background-size: 100%;
-  display: inline-block;
-  cursor: pointer;
-  padding: 35px 35px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #ffffff;
-}
-.round3:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%),
-    url("./youtube-music7134-logo-removebg-preview.png");
-  background-size: 100%;
-  background-color: #bfbfbf60;
-  transform: scale(1.1);
-} */
-.spotiIMG {
+/* .spotiIMG {
   height: 55px;
   width: 55px;
-}
-.square1 {
+} */
+/* .square1 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 34px;
-  font-weight: 600;
-  color: #000;
-  width: 185px;
-  height: 60px;
-  border-radius: 20px;
-  background: linear-gradient(
-      0deg,
-      rgba(75, 74, 74, 0.8) 0%,
-      rgba(99, 99, 99, 0.7) 100%
-    ),
-    rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 1.5rem;
-}
-
-.square1:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%);
-  background-size: 100%;
-  background-color: #bfbfbf60;
-  transform: scale(1.1);
-}
-
-.square2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 34px;
-  font-weight: 600;
-  color: #000;
-  width: 280px;
-  height: 60px;
-  border-radius: 20px;
-  background: linear-gradient(
-      0deg,
-      rgba(75, 74, 74, 0.8) 0%,
-      rgba(99, 99, 99, 0.7) 100%
-    ),
-    rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 1.5rem;
-}
-
-.square2:hover {
-  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%);
-  background-size: 90%;
-  background-color: #bfbfbf60;
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: scale(1.1);
-}
-
-.square3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 34px;
+  font-size: 26px;
   font-weight: 600;
   color: #000;
   width: 320px;
@@ -248,8 +90,80 @@
   border-radius: 20px;
   background: linear-gradient(
       0deg,
-      rgba(75, 74, 74, 0.8) 0%,
-      rgba(99, 99, 99, 0.7) 100%
+      rgba(126, 126, 126, 0.8) 0%,
+      rgba(170, 170, 170, 0.7) 100%
+    ),
+    rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.square1:hover {
+  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%);
+  background-size: 100%;
+  background-color: #bfbfbf60;
+  transform: scale(1.1);
+} */
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: #000;
+  width: 320px;
+  height: 60px;
+  border-radius: 20px;
+  background: linear-gradient(
+      0deg,
+      rgba(126, 126, 126, 0.8) 0%,
+      rgba(170, 170, 170, 0.7) 100%
+    ),
+    rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+/* .square2:hover {
+  background: linear-gradient(to bottom, #bfbfbf27 5%, #5959593a 100%);
+  background-size: 90%;
+  background-color: #bfbfbf60;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1.1);
+} */
+
+.square:active {
+  position: relative;
+  top: 2px;
+}
+
+/* .square3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: #000;
+  width: 320px;
+  height: 60px;
+  border-radius: 20px;
+  background: linear-gradient(
+      0deg,
+      rgba(126, 126, 126, 0.8) 0%,
+      rgba(170, 170, 170, 0.7) 100%
     ),
     rgba(99, 99, 99, 0.363) 50% / contain no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
@@ -267,7 +181,7 @@
   background-position: center;
   background-repeat: no-repeat;
   transform: scale(1.1);
-}
+} */
 
 .row {
   display: flex;
